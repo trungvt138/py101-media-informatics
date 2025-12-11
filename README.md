@@ -1,6 +1,6 @@
-# Python Selbstlernkurs – Medieninformatik 🐍🎧💻
+# Python 101 Selbstlernkurs Medieninformatik 🐍🎧💻
 
-Willkommen zum Python-Selbstlernkurs im 3. Semester des Studiengangs **Medieninformatik**.
+Willkommen zum Python-Selbstlernkurs für das 3. Semester des Studiengangs **Medieninformatik**.
 
 Der Kurs ist so aufgebaut, dass Studierende mit sehr unterschiedlichen Vorkenntnissen gut einsteigen können – von „Python-Neuling“ bis „fortgeschritten“.
 

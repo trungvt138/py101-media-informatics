@@ -1,4 +1,4 @@
-# README für Lehrende – Python-Selbstlernkurs Medieninformatik 🧑‍🏫🐍
+# README für Lehrende – Python 101 Selbstlernkurs Medieninformatik 🐍🎧💻
 
 Dieses Dokument richtet sich an **Lehrende**, die den Python‑Selbstlernkurs im Studiengang
 **Medieninformatik** begleiten oder einsetzen möchten.  

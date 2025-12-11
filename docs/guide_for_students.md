@@ -1,4 +1,4 @@
-# Leitfaden für Studierende – Python 101 Selbstlernkurs Medieninformatik
+# Leitfaden für Studierende – Python 101 Selbstlernkurs Medieninformatik 🐍🎧💻
 
 Dieser Leitfaden erklärt dir, wie du mit diesem Selbstlernkurs arbeitest, wie die Jupyter-Notebooks funktionieren, wie du den Einstufungstest nutzt und wie du KI als Erklärbär sinnvoll einsetzt.
 
