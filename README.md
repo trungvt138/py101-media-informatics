@@ -94,7 +94,7 @@ Die ausführlichen Pfade findest du im `INDEX_overview.ipynb`.
 - Programmiererfahrung vorhanden  
 - direkt Übungsset C → Module nach Bedarf
 
-Der [`placement/placement_test.ipynb`](placement/placement_test.ipynb) gibt eine Empfehlung.
+Der [`placement_test.ipynb`](placement/placement_test.ipynb) im Ordner `placement` gibt eine Empfehlung.
 
 ---
 
