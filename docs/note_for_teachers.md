@@ -49,11 +49,11 @@ Das Repository enthält:
 
 ```
 INDEX_overview.ipynb        ← Zentrales Navigations-Notebook
-notebooks/                  ← Module 00–07
+notebooks/                  ← Module 00–9
 exercises/                  ← Übungssets A/B/C
 placement/                  ← Einstufungstest
 docs/                       ← Guides für Lernende & Codespaces-Anleitung
-.devcontainer/              ← Vollständig vorkonfigurierte Umgebung
+.github/ & .vscode/         ← Vorkonfigurierte Umgebung
 ```
 
 ## Module (00–07)
@@ -62,6 +62,11 @@ Didaktisch aufeinander aufbauend, praxisnah, mit Medieninformatik‑Bezug:
 - Datenstrukturen (Listen, Dicts), Dateien/CSV  
 - Fehlerbehandlung, Debugging  
 - Module/Projektstruktur
+
+## Module (08–08)
+Weiterführende Medieninformatik‑Skills in Python:
+- Daten laden, analysieren, visualisieren
+- Überblick über objektorientierte Programmierung
 
 ## Übungssets (Level A, B, C)
 Zur Vertiefung oder Differenzierung:

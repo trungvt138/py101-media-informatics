@@ -39,39 +39,19 @@ Dieser Kurs enthält einen integrierten KI-Tutor, der dich beim Lernen unterstü
 ```
 PY101-MEDIA-INFORMATICS/
 │
-├─ .github/
-│   └─ copilot-instructions.md
-│
+├─ .github/                      ← Vorkonfigurierte Umgebung 
 ├─ .vscode/
-│   └─ settings.json
 │
-├─ docs/
-│   ├─ guide_for_students.md
-│   ├─ note_for_teachers.md
-│   ├─ using_ai_tutor.md
-│   └─ using_codespaces.md
+├─ docs/                         ← Guides für Lernende & Codespaces-Anleitung
 │
-├─ exercises/
-│   ├─ A_exercises_01.ipynb
-│   ├─ B_exercises_01.ipynb
-│   └─ C_exercises_01.ipynb
+├─ exercises/                    ← Übungssets A/B/C
 │
-├─ notebooks/
-│   ├─ 00_java_to_python.ipynb
-│   ├─ 01_basics.ipynb
-│   ├─ 02_control_flow.ipynb
-│   ├─ 03_functions.ipynb
-│   ├─ 04_data_structures.ipynb
-│   ├─ 05_files.ipynb
-│   ├─ 06_errors_debugging.ipynb
-│   ├─ 07_modules.ipynb
-│   ├─ 08_data_analysis_intro.ipynb
-│   └─ 09_oop_intro.ipynb
+├─ notebooks/                    ← Module 00–09
 │
-├─ placement/
-│   └─ placement_test.ipynb
+├─ placement/                    ← Einstufungstest
 │
-├─ INDEX_overview.ipynb
+├─ INDEX_overview.ipynb          ← Zentrales Navigations-Notebook
+│
 ├─ requirements.txt
 └─ README.md
 ```
