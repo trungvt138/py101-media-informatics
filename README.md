@@ -1,37 +1,38 @@
 # Python Selbstlernkurs – Medieninformatik 🎧🐍
 
-Willkommen im Selbstlernkurs für Python im 3. Semester des Studiengangs **Medieninformatik**.
+Willkommen zum Python-Selbstlernkurs im 3. Semester des Studiengangs **Medieninformatik**.
 
-Dieses Repository bündelt:
-
-- grundlegende **Kursmodule** (00–07),
-- weiterführende, freiwillige **Kursmodule** (08–09),
-- den **Einstufungstest**,
-- Übungen in drei Schwierigkeitsstufen (**A, B, C**),
-- eine lauffähige **Dev-/Codespace-Umgebung**,
-- Guides für Studierende
-
-Der gesamte Kurs ist so aufgebaut, dass Studierende mit sehr unterschiedlichen Vorkenntnissen gut einsteigen können – von „Python-Neuling“ bis „bereits viel Erfahrung“.
-
----
-📘 **Hinweis für Lehrende:**
-Siehe: `docs/note_for_teachers.md`
+Der Kurs ist so aufgebaut, dass Studierende mit sehr unterschiedlichen Vorkenntnissen gut einsteigen können – von „Python-Neuling“ bis „fortgeschritten“.
 
 ---
 
 # 🚀 Schnellstart – bitte hier beginnen!
 
-Öffne das zentrale Navigations-Notebook:
-
-👉 **`INDEX_overview.ipynb`**
+👉 **Öffne das zentrale Navigations-Notebook:**  
+[`INDEX_overview.ipynb`](INDEX_overview.ipynb)
 
 Dort findest du:
 
-- alle Module als klickbare Links  
-- alle Übungssets (A/B/C)  
-- Kurspfade je nach Einstiegsniveau  
-- Hinweise zu GitHub Codespaces / VS Code  
-- Orientierung & Tipps
+- alle Kursmodule (00–09) als klickbare Links  
+- die Übungssets A/B/C  
+- Lernpfade je nach Einstiegsniveau  
+- Überblick zu Codespaces & VS Code  
+- Hinweise zum KI-Tutor
+
+---
+
+# 💡 KI-Tutor im Kurs
+
+Der Kurs enthält einen integrierten KI-Tutor, der dir beim Lernen hilft:
+
+- Er erklärt Konzepte  
+- unterstützt beim Debugging  
+- gibt dir Hinweise (aber **keine fertigen Lösungen**)  
+
+➡️ **Anleitung zum KI-Tutor:**  
+[docs/USING_AI_TUTOR.md](docs/USING_AI_TUTOR.md)
+
+Der Tutor ist in GitHub Codespaces / VS Code bereits aktiviert und nutzt automatische Projekthinweise.
 
 ---
 
@@ -40,9 +41,9 @@ Dort findest du:
 ```
 python-selfstudy-medieninformatik/
 │
-├─ INDEX_overview.ipynb        ← Einstiegspunkt
+├─ INDEX_overview.ipynb        ← zentraler Einstiegspunkt
 │
-├─ notebooks/                  ← Kursmodule (00–07)
+├─ notebooks/                  ← Kursmodule (00–09)
 │   ├─ 00_java_to_python.ipynb
 │   ├─ 01_basics.ipynb
 │   ├─ 02_control_flow.ipynb
@@ -50,9 +51,11 @@ python-selfstudy-medieninformatik/
 │   ├─ 04_data_structures.ipynb
 │   ├─ 05_files.ipynb
 │   ├─ 06_errors_debugging.ipynb
-│   └─ 07_modules.ipynb
+│   ├─ 07_modules.ipynb
+│   ├─ 08_data_analysis_intro.ipynb
+│   └─ 09_oop_intro.ipynb
 │
-├─ exercises/                  ← Übungssets
+├─ exercises/                  ← Übungssets (A/B/C)
 │   ├─ A_exercises_01.ipynb
 │   ├─ B_exercises_01.ipynb
 │   └─ C_exercises_01.ipynb
@@ -62,74 +65,68 @@ python-selfstudy-medieninformatik/
 │
 ├─ docs/                       ← Anleitungen
 │   ├─ guide_for_students.md
-│   └─ using_codespaces.md
+│   ├─ using_codespaces.md
+│   ├─ USING_AI_TUTOR.md
+│   └─ note_for_teachers.md
 │
-└─ .devcontainer/              ← Umgebung (für GitHub Codespaces)
+└─ .devcontainer/              ← Entwicklungsumgebung für Codespaces
 ```
 
 ---
 
-# 📝 Lernpfade
+# 📝 Lernpfade (Kurzfassung)
+
+Die ausführlichen Pfade findest du im Index-Notebook.
 
 ## 🔹 Level A – Einsteiger:innen
-- geeignet bei **geringen Vorkenntnissen**
-- Start mit:  
-  - `00_java_to_python.ipynb`  
-  - `01_basics.ipynb`  
-  - Übungen: `A_exercises_01.ipynb`
+- geeigneter Start bei geringen Vorkenntnissen  
+- Module 00–02 → Übungsset A
 
-## 🔹 Level B – Mittelstufe
-- geeignet bei **solider Programmiererfahrung**
-- Fokus auf Datenstrukturen, Funktionen, Dateien
-- Übungsset: `B_exercises_01.ipynb`
+## 🔹 Level B – mittleres Niveau
+- solide Grundlagen vorhanden  
+- Module gezielt auffrischen → Übungsset B
 
 ## 🔹 Level C – Fortgeschritten
-- geeignet, wenn Python & andere Sprachen bereits vertraut sind
-- Fokus: Comprehensions, Validierung, Mini-Datenprojekte
-- Übungsset: `C_exercises_01.ipynb`
+- Programmiererfahrung vorhanden  
+- direkt Übungsset C → Module nach Bedarf
 
-Der **Placement-Test** gibt eine Empfehlung.
+Der **Placement-Test** im Ordner *placement/* gibt eine Empfehlung.
 
 ---
 
-# 💻 Nutzung in GitHub Codespaces / VS Code
+# 💻 Arbeiten in GitHub Codespaces / VS Code
 
-Für Studierende ist empfohlen:
+Für Studierende:
 
-- **in der Cloud in GitHub Codespaces** arbeiten  
-  *(fertige Entwicklungsumgebung, nichts installieren müssen)*  
+➡️ **am einfachsten:** GitHub Codespaces (keine Installation erforderlich)  
+➡️ **alternativ:** lokale VS-Code-Installation
 
-oder
-
-- **lokal in VS Code** mit Python-Interpreter nach Wahl.
-
-Detaillierte Anleitung:
-👉 `docs/using_codespaces.md`
+Detaillierte Anleitung:  
+[docs/using_codespaces.md](docs/using_codespaces.md)
 
 ---
 
 # 🎯 Ziel des Kurses
 
-Die Studierenden sollen am Ende:
+Nach Abschluss sollen Studierende:
 
-- Python sicher anwenden können,
-- Daten verarbeiten & strukturieren können,
-- Funktionen & Module sauber einsetzen,
-- kleine Projekte selbstständig entwickeln,
-- Fehler finden & Debugging anwenden,
-- eine professionelle Toolchain (VS Code / Codespaces) nutzen können.
+- sicher Python-Code schreiben,
+- Dateien & Daten verarbeiten,
+- Funktionen & Module strukturiert einsetzen,
+- kleinere Projekte selbstständig entwickeln,
+- typische Fehler erkennen & debuggen,
+- produktiv mit VS Code & Jupyter arbeiten.
 
 ---
 
-# 🙌 Viel Erfolg!
+# 📘 Hinweis für Lehrende
+Didaktisches Konzept, Tutor-Regeln und Hinweise zur Begleitung:
 
-Bei Rückfragen im Kurs einfach melden — dieser Selbstlernkurs ist **modular**, **flexibel** und **selbstlernfreundlich** gestaltet.
+➡️ [docs/note_for_teachers.md](docs/note_for_teachers.md)
 
-Happy Coding! 🐍✨
+---
 
-### PS:
-Wie sehe ich diese Datei in VS Code als Markdown an?
+# 🙌 Viel Erfolg & Happy Coding! 🐍✨
 
-    Drücke Ctrl + Shift + V (Windows/Linux)
-    oder Cmd + Shift + V (macOS) Es öffnet sich ein „Preview“-Fenster rechts.
-
+**Markdown-Vorschau in VS Code:**  
+`Ctrl + Shift + V` (Windows/Linux) oder `Cmd + Shift + V` (macOS)
