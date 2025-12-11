@@ -1,4 +1,4 @@
-# Python Selbstlernkurs – Medieninformatik 🎧🐍
+# Python Selbstlernkurs – Medieninformatik 🐍🎧💻
 
 Willkommen zum Python-Selbstlernkurs im 3. Semester des Studiengangs **Medieninformatik**.
 
