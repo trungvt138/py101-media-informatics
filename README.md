@@ -6,7 +6,7 @@ Der Kurs ist so aufgebaut, dass Studierende mit sehr unterschiedlichen Vorkenntn
 
 ---
 
-# 🚀 Schnellstart – bitte hier beginnen!
+# 🚀 Schnellstart – Bitte hier beginnen!
 
 👉 **Öffne das zentrale Navigations-Notebook:**  
 [`INDEX_overview.ipynb`](INDEX_overview.ipynb)
@@ -14,36 +14,49 @@ Der Kurs ist so aufgebaut, dass Studierende mit sehr unterschiedlichen Vorkenntn
 Dort findest du:
 
 - alle Kursmodule (00–09) als klickbare Links  
-- die Übungssets A/B/C  
-- Lernpfade je nach Einstiegsniveau  
-- Überblick zu Codespaces & VS Code  
-- Hinweise zum KI-Tutor
+- die Übungssets A / B / C  
+- deinen empfohlenen Lernpfad  
+- Hinweise zum Arbeiten in Codespaces / VS Code  
+- Link zur KI-Tutor-Anleitung  
 
 ---
 
 # 💡 KI-Tutor im Kurs
 
-Der Kurs enthält einen integrierten KI-Tutor, der dir beim Lernen hilft:
+Dieser Kurs enthält einen integrierten KI-Tutor, der dich beim Lernen unterstützt:
 
-- Er erklärt Konzepte  
-- unterstützt beim Debugging  
-- gibt dir Hinweise (aber **keine fertigen Lösungen**)  
+- erklärt Konzepte  
+- hilft beim Debugging  
+- gibt Hinweise, aber **keine fertigen Lösungen**
 
-➡️ **Anleitung zum KI-Tutor:**  
-[docs/USING_AI_TUTOR.md](docs/USING_AI_TUTOR.md)
-
-Der Tutor ist in GitHub Codespaces / VS Code bereits aktiviert und nutzt automatische Projekthinweise.
+➡️ Anleitung zum KI-Tutor:  
+[`docs/using_ai_tutor.md`](docs/using_ai_tutor.md)
 
 ---
 
 # 🧭 Struktur des Repositories
 
 ```
-python-selfstudy-medieninformatik/
+PY101-MEDIA-INFORMATICS/
 │
-├─ INDEX_overview.ipynb        ← zentraler Einstiegspunkt
+├─ .github/
+│   └─ copilot-instructions.md
 │
-├─ notebooks/                  ← Kursmodule (00–09)
+├─ .vscode/
+│   └─ settings.json
+│
+├─ docs/
+│   ├─ guide_for_students.md
+│   ├─ note_for_teachers.md
+│   ├─ using_ai_tutor.md
+│   └─ using_codespaces.md
+│
+├─ exercises/
+│   ├─ A_exercises_01.ipynb
+│   ├─ B_exercises_01.ipynb
+│   └─ C_exercises_01.ipynb
+│
+├─ notebooks/
 │   ├─ 00_java_to_python.ipynb
 │   ├─ 01_basics.ipynb
 │   ├─ 02_control_flow.ipynb
@@ -55,32 +68,23 @@ python-selfstudy-medieninformatik/
 │   ├─ 08_data_analysis_intro.ipynb
 │   └─ 09_oop_intro.ipynb
 │
-├─ exercises/                  ← Übungssets (A/B/C)
-│   ├─ A_exercises_01.ipynb
-│   ├─ B_exercises_01.ipynb
-│   └─ C_exercises_01.ipynb
-│
-├─ placement/                  ← Einstufungstest
+├─ placement/
 │   └─ placement_test.ipynb
 │
-├─ docs/                       ← Anleitungen
-│   ├─ guide_for_students.md
-│   ├─ using_codespaces.md
-│   ├─ USING_AI_TUTOR.md
-│   └─ note_for_teachers.md
-│
-└─ .devcontainer/              ← Entwicklungsumgebung für Codespaces
+├─ INDEX_overview.ipynb
+├─ requirements.txt
+└─ README.md
 ```
 
 ---
 
 # 📝 Lernpfade (Kurzfassung)
 
-Die ausführlichen Pfade findest du im Index-Notebook.
+Die ausführlichen Pfade findest du im `INDEX_overview.ipynb`.
 
 ## 🔹 Level A – Einsteiger:innen
 - geeigneter Start bei geringen Vorkenntnissen  
-- Module 00–02 → Übungsset A
+- Module 00–04 → Übungsset A
 
 ## 🔹 Level B – mittleres Niveau
 - solide Grundlagen vorhanden  
@@ -96,13 +100,13 @@ Der **Placement-Test** im Ordner *placement/* gibt eine Empfehlung.
 
 # 💻 Arbeiten in GitHub Codespaces / VS Code
 
-Für Studierende:
+Empfohlen wird:
 
-➡️ **am einfachsten:** GitHub Codespaces (keine Installation erforderlich)  
-➡️ **alternativ:** lokale VS-Code-Installation
+➡️ **Arbeiten in GitHub Codespaces** (keine Installation erforderlich)  
+➡️ alternativ: VS Code lokal mit Python-Interpreter
 
-Detaillierte Anleitung:  
-[docs/using_codespaces.md](docs/using_codespaces.md)
+Anleitung:  
+[`docs/using_codespaces.md`](docs/using_codespaces.md)
 
 ---
 
@@ -110,23 +114,25 @@ Detaillierte Anleitung:
 
 Nach Abschluss sollen Studierende:
 
-- sicher Python-Code schreiben,
-- Dateien & Daten verarbeiten,
-- Funktionen & Module strukturiert einsetzen,
-- kleinere Projekte selbstständig entwickeln,
-- typische Fehler erkennen & debuggen,
-- produktiv mit VS Code & Jupyter arbeiten.
+- sicher Python-Code schreiben können  
+- Dateien und Daten analysieren und verarbeiten  
+- Funktionen und Module strukturiert einsetzen  
+- kleinere Projekte selbstständig entwickeln  
+- Debugging und Fehlersuche sicher anwenden  
+- produktiv mit VS Code / Jupyter arbeiten können  
 
 ---
 
 # 📘 Hinweis für Lehrende
-Didaktisches Konzept, Tutor-Regeln und Hinweise zur Begleitung:
 
-➡️ [docs/note_for_teachers.md](docs/note_for_teachers.md)
+Zum didaktischen Konzept, dem KI-Tutor und zur Begleitung von Lernphasen siehe:
+
+➡️ [`docs/note_for_teachers.md`](docs/note_for_teachers.md)
 
 ---
 
 # 🙌 Viel Erfolg & Happy Coding! 🐍✨
 
 **Markdown-Vorschau in VS Code:**  
-`Ctrl + Shift + V` (Windows/Linux) oder `Cmd + Shift + V` (macOS)
+`Ctrl + Shift + V` (Windows/Linux)  
+`Cmd + Shift + V` (macOS)
