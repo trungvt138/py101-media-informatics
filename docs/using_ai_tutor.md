@@ -1,4 +1,4 @@
-# USING_AI_TUTOR.md
+# using_ai_tutor.md
 
 # 🎓 Nutzung des KI-Tutors im Self-Study Python Kurs
 

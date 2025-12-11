@@ -9,8 +9,7 @@ Es erklärt Aufbau, Ziele, bewährte Unterrichtsstrategien und Hinweise zur Betr
 # 🎯 1. Zielsetzung des Kurses
 
 Der Kurs wurde entwickelt, um Studierende im **3. Semester Medieninformatik** auf einen
-einheitlichen Python‑Kompetenzstand zu bringen – unabhängig von sehr heterogenen
-Vorkenntnissen:
+einheitlichen Python‑Kompetenzstand zu bringen – unabhängig von sehr heterogenen Vorkenntnissen:
 
 - einige hatten **mehrjährige Python-Erfahrung** (Schule, Projekte),
 - andere **ringen noch mit Java**,
@@ -23,6 +22,24 @@ Der Selbstlernkurs ermöglicht:
 - kontinuierliche Übungsmöglichkeiten  
 - klare Struktur (Module + Übungssets)  
 - Einsatz in Vorlesungen, Praktika oder Selbstlernphasen  
+
+
+## 🎓 Einsatz des KI-Tutors im Python-Selbstlernkurs
+
+Dieser Kurs nutzt ein projektspezifisches KI-Tutorsystem, das Studierende beim selbstständigen Arbeiten unterstützt.  
+Der Tutor ist auf „Hinweise statt Lösungen“ ausgerichtet und hilft vor allem beim Debugging, Verständnis und Reflektieren von Lösungswegen.
+
+Die genauen Regeln, Verhaltenserwartungen und Nutzungshinweise für Studierende findest du hier:
+
+👉 **Studenten-Anleitung: USING_AI_TUTOR.md**  
+[docs/USING_AI_TUTOR.md](USING_AI_TUTOR.md)
+
+Der Tutor liest automatisch:
+- `.github/copilot-instructions.md` → pädagogische Regeln  
+- `.vscode/settings.json` → Workspace-Konfiguration  
+
+Bitte weise Studierende besonders in der Startphase darauf hin, den Tutor reflektiert einzusetzen und nicht als Lösungsgenerator zu verwenden.
+
 
 ---
 
@@ -121,30 +138,8 @@ Aus Sicht der Lehre empfehlenswert:
 
 ---
 
-# 📊 5. Bewertung & Leistungsnachweise
 
-Mögliche Modelle:
-
-### ✔ Modell 1 – Punktesystem
-- Module 00–07 = Pflicht  
-- Übungen:  
-  - A = 1 Punkt pro Aufgabe  
-  - B = 2 Punkte  
-  - C = 3 Punkte  
-- Abschlussprojekt: 40 % der Note  
-
-### ✔ Modell 2 – Kompetenzbasiert
-- Studierende demonstrieren praktische Skills (z. B. Daten einlesen, Schleifen, Fehlerbehandlung)  
-- Fokus auf **Beherrschen**, nicht auf Anzahl korrekter Aufgaben  
-
-### ✔ Modell 3 – Mini‑Prüfung im Notebook
-- kleine Live‑Coding‑Aufgabe  
-- fair, da alle mit Jupyter gearbeitet haben  
-- KI‑freie Zeit notwendig
-
----
-
-# 📦 6. Anpassung & Erweiterbarkeit
+# 📦 5. Anpassung & Erweiterbarkeit
 
 Der Kurs ist modular und lässt sich leicht erweitern:
 
@@ -157,7 +152,7 @@ Die Struktur ist absichtlich offen gehalten.
 
 ---
 
-# 🧑‍🏫 7. Tipps für neue Lehrende
+# 🧑‍🏫 6. Tipps für neue Lehrende
 
 - erst **INDEX_overview.ipynb** durchgehen  
 - dann Module 00–02 selbst testen  
