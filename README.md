@@ -60,7 +60,7 @@ PY101-MEDIA-INFORMATICS/
 
 # 📝 Lernpfade (Kurzfassung)
 
-Die ausführlichen Pfade findest du im `INDEX_overview.ipynb`.
+Die ausführlichen Pfade findest du im [`INDEX_overview.ipynb`](INDEX_overview.ipynb).
 
 ## 🔹 Level A – Einsteiger:innen
 - geeigneter Start bei geringen Vorkenntnissen  
