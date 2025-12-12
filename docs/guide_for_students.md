@@ -156,17 +156,4 @@ Wenn nichts hilft, notiere die Fehlermeldung und frag nach Hilfe — oder lass s
 
 ---
 
-## 8. Abschlussprojekt
-
-Zum Kursende gibt es ein kleines Projekt mit Medienbezug  
-(z. B. Audio-/Bild-/Videoanalyse oder kreative Datenverarbeitung).
-
-Das Projekt zeigt:
-
-- dass du Python eigenständig nutzen kannst,
-- dass du Aufgaben strukturieren kannst,
-- und dass du Gelerntes anwenden kannst.
-
----
-
 ## Viel Erfolg – und vor allem: Hab Spaß beim Lernen! 🐍🎧
