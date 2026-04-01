@@ -55,7 +55,7 @@ Du bekommst dann zwei Kategorien angezeigt:
 
 ---
 
-## **A. Python-Umgebungen (richtig!)**
+## **A. Python-Umgebungen**
 
 Hier findest du:
 
@@ -71,7 +71,7 @@ Damit verwendest du die speziell für den Kurs vorgesehenen Pakete.
 
 ---
 
-## **B. Vorhandene Jupyter-Server (bitte nicht verwenden)**
+## **B. Vorhandene Jupyter-Server bitte nicht verwenden**
 
 Diese Umgebung darfst du **nicht** auswählen.  
 Sie ist:
@@ -138,3 +138,49 @@ pip install -r requirements.txt
 # 🎉 Fertig!
 
 Damit kannst du alle Kurs-Notebooks in der Cloud bearbeiten — ohne lokale Installation, ohne Python-Setup-Probleme und ohne Konfigurationsstress.
+
+## Zusatz: Wenn du das Repository lokal in VS Code auf deinem Rechner bearbeiten willst, gehst du so vor: 
+### 1. Repository klonen
+1. Öffne VS Code.
+2. Öffne die Befehlspalette mit Ctrl + Shift + P.
+3. Suche nach Git: Clone.
+4. Füge die URL des GitHub-Repositories ein.
+5. Wähle einen lokalen Ordner, in den das Repository geklont werden soll.
+6. Öffne danach den geklonten Projektordner in VS Code.
+
+### 2. Virtuelle Umgebung (venv) einmalig einrichten
+Öffne ein Terminal in VS Code.
+
+Dann:
+
+```bash
+python -m venv .venv
+```
+
+Jetzt aktivieren:
+
+Windows (cmd):
+```bash
+.venv\Scripts\activate.bat
+```
+
+macOS/Linux:
+```bash
+source .venv/bin/activate
+``` 
+Dann die benötigten Pakete installieren:
+```bash
+pip install -r requirements.txt
+``` 
+
+### Beim nächsten Öffnen des Projekts in VC Code
+Die Umgebung muss nicht neu erstellt werden.
+Windows (cmd):
+```bash
+.venv\Scripts\activate.bat
+```
+
+macOS/Linux:
+```bash
+source .venv/bin/activate
+``` 
